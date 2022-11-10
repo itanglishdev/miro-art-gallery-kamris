@@ -28,4 +28,22 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.images-container {
+  grid-template-columns: 1fr,1fr,1fr;
+}
+.single-image-container {
+
+}
+
+span {
+  font-size: 1.4rem;
+  text-align: center;
+
+}
+.image-mouse__off {
+  width: 400px;
+}
+img {
+  width: 200px;
+}
 
