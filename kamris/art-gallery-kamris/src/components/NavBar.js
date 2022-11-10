@@ -6,9 +6,9 @@ function NavBar() {
     return ( 
         <Fragment>
             <div className="navbar">
-                <Link to='/'><GiPaintedPottery/></Link>
-                <Link to='/about'>About</Link>
-                <Link to='/contact'>Contact</Link>
+                <Link className="navbar__link" to='/'><GiPaintedPottery size={42}/></Link>
+                <Link className="navbar__link" to='/about'>about</Link>
+                <Link className="navbar__link" to='/contact'>contact us</Link>
             </div>
             <Outlet/>
         </Fragment>
