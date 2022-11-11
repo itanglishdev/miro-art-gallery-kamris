@@ -24,7 +24,7 @@ function Home() {
                      <div className="single-image-container"
                      key={item.id}>
                         <img 
-                        className={transition && 'image-mouse__off'}
+                        className={`${transition && 'image-mouse__off'} image__paintings`}
                         src={item.image}
                         onMouseOver={(e)=>onMouseHandler(e.target.value)}
                         onMouseOut={offMouseHandler}

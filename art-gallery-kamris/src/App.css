@@ -36,10 +36,10 @@ html {
 
 .images-container {
   /* grid-template-columns: 1fr,1fr,1fr; */
- 
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 5rem;
   align-items: center;
   justify-content: center;
   margin: 50px auto;
@@ -56,7 +56,65 @@ span {
   width: 400px;
 }
 
-img {
+.image__paintings {
   width: 300px;
+}
+
+h2 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 2rem;
+  color: rgb(50, 41, 41);
+
+}
+
+article {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 30px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 650px;
+  gap: 20px;
+  text-align: justify;
+  color: rgb(50, 41, 41);
+  font-size: 1.05rem;
+  letter-spacing: 0.7px;
+}
+
+.section__image {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.image__miro {
+  object-fit: contain;
+  max-width: 300px;
+}
+
+.quote {
+  border-radius: 3px;
+  font-style: oblique;
+  background-color: rgb(246, 192, 135,.3);
+  padding: 10px;
+  font-size: .8rem;
+  width: 96%;
+  color: rgb(15, 12, 12);
+}
+
+.quote:hover {
+  width: 110%;
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: rgb(252, 150, 42, 0.9);
+  color: azure;
+  font-weight: bold;
+}
+
+.quote__end {
+ text-align: end;
 }
 
