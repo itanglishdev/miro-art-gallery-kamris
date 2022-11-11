@@ -19,19 +19,19 @@ function Home() {
     if(transition.length > 1 ){
          allImages = transition.map((item) => {
             return  (
-                <Link className="" to={`/about/${item.title}`}>
+               //  <Link className="" to={`/about/${item.title}`}>
                 <div key={item.id} className="single-image-container"
                 >
                    <img 
                    className='image__paintings'
                    src={item.image}
                    id={item.id}
-                //    onMouseOver={(e)=>onMouseHandler(e)}
-                //    onMouseOut={offMouseHandler}
+                   onMouseOver={(e)=>onMouseHandler(e)}
+                   onMouseOut={offMouseHandler}
                    alt=""
                    />
                 </div>
-                </Link>
+               //  </Link>
             )    
          })
     } else {
