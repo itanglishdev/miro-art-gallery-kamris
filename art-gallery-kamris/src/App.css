@@ -9,6 +9,8 @@ html {
   background-color: antiquewhite;
 }
 
+/*                      NAVBAR SECTION */
+
 .navbar {
   /* background-color: rgb(141, 36, 36); */
   display: flex;
@@ -38,6 +40,9 @@ html {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+/*                      HOME SECTION */
+
 .images-container {
   /* grid-template-columns: 1fr,1fr,1fr; */
   width: 85%;
@@ -63,6 +68,8 @@ span {
 .image__paintings {
   width: 300px;
 }
+
+/*                      ABOUT SECTION */
 
 h2 {
   letter-spacing: 5px;
@@ -124,6 +131,8 @@ article {
 .quote__end {
  text-align: end;
 }
+
+/*                      CONTACT SECTION */
 
 .contact-container{
   margin-top: 170px;
