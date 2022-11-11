@@ -63,11 +63,12 @@ span {
 }
 
 .image-mouse__off {
-  width: 400px;
+  width: 550px;
+  /* margin-top: 200px; */
 }
 
 .image__paintings {
-  width: 300px;
+  width: 400px;
 }
 
 /*                      ABOUT SECTION */
