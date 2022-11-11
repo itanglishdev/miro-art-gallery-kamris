@@ -1,8 +1,8 @@
+/*                    CSS RESET */
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -45,31 +45,50 @@ html {
 /*                      HOME SECTION */
 
 .images-container {
-  /* grid-template-columns: 1fr,1fr,1fr; */
+  /* grid-template-columns: repeat(2,minmax(50px,1fr)); */
   width: 85%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5rem;
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 8rem;
   align-items: center;
   justify-content: center;
   margin: 250px auto;
 }
 img {
-  border-radius: 3px;
-}
-
-span {
-  font-size: 1.2rem;
+  border-radius: 5px;
 }
 
 .image-mouse__off {
   width: 550px;
+  border-radius: 0;
   /* margin-top: 200px; */
 }
 
-.image__paintings {
-  width: 400px;
+.single-image-container {
+  width: 600px;
+  position: relative;
 }
+
+.image__paintings {
+  width: 500px;
+}
+span p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 3.1rem;
+  color: black;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+.flex-image {
+  display: flex;
+}
+
+span {
+}
+
 
 /*                      ABOUT SECTION */
 
@@ -79,7 +98,6 @@ h2 {
   font-size: 2rem;
   color: rgb(50, 41, 41);
   margin-top: 170px;
-
 }
 
 article {
