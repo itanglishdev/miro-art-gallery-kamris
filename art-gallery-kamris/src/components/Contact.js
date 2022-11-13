@@ -29,7 +29,7 @@ function Contact() {
                     tabIndex='1'
                     type="text" 
                     placeholder="your name" 
-                    required/>
+                    required id='name'/>
                 </label>
                 <label htmlFor="email">
                     <input 
@@ -38,16 +38,17 @@ function Contact() {
                     tabIndex='2'
                     type="email" 
                     placeholder="youremail@example.com" 
-                    required/>
+                    required id='email'/>
                 </label>
                 <label htmlFor="message">
-                    <input 
+                    <textarea
                     ref={messageRef} 
                     name="message"
                     tabIndex='3'
                     type="comment" 
                     placeholder="your message..." 
-                    required/>
+                    required id='message' rows='5'>
+                    </textarea>
                 </label>
                 <button
                 onClick={handleSubmit}
