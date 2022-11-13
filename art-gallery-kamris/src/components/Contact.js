@@ -1,4 +1,4 @@
-import React, { useRef} from 'react'
+import React, { useRef } from 'react'
 
 function Contact() {
 
@@ -6,7 +6,18 @@ function Contact() {
     const emailRef = useRef('')
     const messageRef = useRef('')
 
-    function handleSubmit(event) {
+    // function handleSubmit(event) {
+    //     event.preventDefault()
+
+    //     const data = {
+    //         name: nameRef.current.value,
+    //         email: emailRef.current.value,
+    //         message: messageRef.current.value
+    //     }
+    //     alert(`thank you ${data.name}, your message ${data.message} has been sent and we will reply asap at ${data.email}`)
+    // }
+
+    function submithandler(event) {
         event.preventDefault()
 
         const data = {
@@ -14,14 +25,14 @@ function Contact() {
             email: emailRef.current.value,
             message: messageRef.current.value
         }
-        alert(`thank you ${data.name}, your message ${data.message} has been sent and we will reply asap at ${data.email}`)
+
     }
 
 
     return ( 
         <div className='contact-container'>
             <p>Fill up the form</p>
-            <form action="">
+            <form onSubmit={submithandler}>
                 <label htmlFor="name">
                     <input
                     ref={nameRef} 
@@ -29,7 +40,8 @@ function Contact() {
                     tabIndex='1'
                     type="text" 
                     placeholder="your name" 
-                    required id='name'/>
+                    required 
+                    id='name'/>
                 </label>
                 <label htmlFor="email">
                     <input 
