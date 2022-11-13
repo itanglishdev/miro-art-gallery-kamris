@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+// import {useNavigate} from 'react-router-dom'
 
 function Contact() {
 
@@ -25,7 +26,9 @@ function Contact() {
             email: emailRef.current.value,
             message: messageRef.current.value
         }
-
+        // add a prop to pass the value to the parents
+        // useNavigate() should be used here to go back to main page after collecting the info and
+        // sending the message with alert/feedback for sending
     }
 
 
