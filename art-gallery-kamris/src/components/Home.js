@@ -9,7 +9,7 @@ function Home() {
   
     let allImages = transition.map((item) => {
       return  (
-         <Link key={item.id} className="image-link__hover" to={`/about/${item.id}`}>
+         <Link key={item.id} className=" " to={`/about/${item.id}`}>
             <Card 
             value={item.id}
             title={item.title}
