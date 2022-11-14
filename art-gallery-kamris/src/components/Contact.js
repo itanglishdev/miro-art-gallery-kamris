@@ -1,22 +1,14 @@
 import React, { useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 // import {useNavigate} from 'react-router-dom'
 
 function Contact() {
+    
+    const navigate = useNavigate()
 
     const nameRef = useRef('')
     const emailRef = useRef('')
     const messageRef = useRef('')
-
-    // function handleSubmit(event) {
-    //     event.preventDefault()
-
-    //     const data = {
-    //         name: nameRef.current.value,
-    //         email: emailRef.current.value,
-    //         message: messageRef.current.value
-    //     }
-    //     alert(`thank you ${data.name}, your message ${data.message} has been sent and we will reply asap at ${data.email}`)
-    // }
 
     function submithandler(event) {
         event.preventDefault()
@@ -26,7 +18,9 @@ function Contact() {
             email: emailRef.current.value,
             message: messageRef.current.value
         }
-        alert(`thank you ${data.name}, your message ${data.message} has been sent and we will reply asap at ${data.email}`)
+        alert(`thank you ${data.name}, your message has been sent and we will reply as soon as possible at your given email$ {data.email}`)
+
+        navigate('/')
         // add a prop to pass the value to the parents
         // useNavigate() should be used here to go back to main page after collecting the info and
         // sending the message with alert/feedback for sending
