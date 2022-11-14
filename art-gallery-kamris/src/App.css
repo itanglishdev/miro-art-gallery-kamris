@@ -44,6 +44,9 @@ html {
   font-size: 2.2rem;
 }
 
+.navbar__link:active {
+  border-bottom: 3px solid white;
+}
 
 
 /*                      HOME SECTION */
@@ -60,8 +63,8 @@ html {
   margin: 170px auto;
 }
 
-img {
-  border-radius: 4px;
+.image__paintings {
+  border-radius: 40%;
   border: 2px solid white;
 }
 
@@ -74,6 +77,10 @@ img {
 .image__details p:first-child {
   font-weight: bold;
 }
+/* 
+p .image__details__p {
+  text-decoration: none !important;
+} */
 
 .single-image-container {
   width: 300px;
@@ -104,11 +111,14 @@ span p {
    /* height: 280px; */
 }
 
-.image-link__hover {
+.image__details {
   text-decoration: none;
   color: rgb(15, 12, 12);
   letter-spacing: .7px;
   font-size: 1.2rem;
+}
+.image__details p:visited, .image__details p:focus, .image__details p:link, .image__details p:hover {
+  text-decoration: none;
 }
 
 
@@ -223,6 +233,8 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
+
+/*        DISPLAYED PAINTINGS SECTION                    */
 
 /*        FOOTER */
 

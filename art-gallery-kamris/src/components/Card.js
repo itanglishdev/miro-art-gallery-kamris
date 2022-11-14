@@ -12,7 +12,7 @@ function Card({id,image,title,year}) {
              />
              
              <div className="image__details">
-               <p>{title}</p><p>{year}</p>
+               <p className="image__details__p">{title}</p><p className="image__details__p">{year}</p>
              </div>
           </div>
      );

@@ -1,6 +1,5 @@
 import { useParams } from 'react-router-dom'
 import {data} from '../data/DataBase'
-import NavBar from './NavBar';
 
 function ProductPage() {
 
