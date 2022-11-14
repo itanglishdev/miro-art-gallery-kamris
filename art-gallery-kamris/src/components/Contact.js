@@ -66,7 +66,7 @@ function Contact() {
                     </textarea>
                 </label>
                 <button
-                onClick={handleSubmit}
+                // onClick={handleSubmit}
                 type="submit"
                 tabIndex='4'
                 >

@@ -18,7 +18,7 @@ html {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  height: 160px;
+  height: 100px;
   gap: 150px;
   padding-left: 4rem;
   width: 100%;
@@ -35,7 +35,7 @@ html {
 
 .navbar__link {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color: white;
   font-weight: bold;
   
@@ -46,32 +46,27 @@ html {
 
 .images-container {
   /* grid-template-columns: repeat(2,minmax(50px,1fr)); */
-  width: 85%;
+  /* width: 85%; */
   display: flex; 
   flex-wrap: wrap; 
   gap: 8rem;
   align-items: center;
   justify-content: center;
-  margin: 250px auto;
+  margin: 170px auto;
 }
 img {
-  border-radius: 5px;
-}
-
-.image-mouse__off {
-  width: 550px;
-  border-radius: 0;
-  /* margin-top: 200px; */
+  border-radius: 2px;
 }
 
 .single-image-container {
-  width: 600px;
+  width: 250px;
   position: relative;
 }
 
 .image__paintings {
-  width: 500px;
+  width: 250px;
 }
+
 span p {
   text-align: center;
   margin-top: 10px;
@@ -82,12 +77,12 @@ span p {
   word-spacing: 5px;
 }
 
-.flex-image {
+/* .flex-image {
   display: flex;
-}
+} */
 
-span {
-}
+/* span {
+} */
 
 
 /*                      ABOUT SECTION */
