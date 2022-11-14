@@ -8,10 +8,7 @@ function Card({id,image,title,year}) {
              className='image__paintings'
              src={image}
              id={id}
-             
-            //  onMouseOver={(e)=>onMouseHandler(e)}
-            //  onMouseOut={offMouseHandler}
-             alt=""
+             alt={title}
              />
              
              <div className="image__details">
