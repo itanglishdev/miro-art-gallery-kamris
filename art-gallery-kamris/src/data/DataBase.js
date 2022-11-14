@@ -2,10 +2,10 @@ export const data=[
 
     {
         id:'01',
-        title: 'The Farm',
-        image:'https://www.joan-miro.net/images/paintings/the-farm.jpg',
-        year:'1922',
-        description:'One of the threads running through Miro\'s work is his sense of something almost supernatural in the land, from which he felt he derived his vital energy in the same way that a tree does through its roots. Although he was born in Barcelona, from childhood he often visited Mallorca, his mother\'s home; Cornudella ( in the province of Tarragona), where his father was born; and later Montroig, where the family bought a farm. Miro\'s feelings toward these particular places are strongly present in a series of paintings done between 1918 and 1924. The paintings are often described as "detailist" because of the minute inventory of the rural world that the artist undertook in them. The diverse landscapes and objects always appear under intense, uniform light, as if illuminated by some mysterious energy of the earth. The Farm, painted on Miro\'s return from his first trip to Paris, culminated in this stage, which immediately preceded the decisive influence exerted on his work by Surrealism, beginning in 1924.',
+        title: 'Woman Encircled by the Flight of a Bird',
+        image:'https://www.joan-miro.net/images/paintings/woman-encircled-by-the-flight-of-a-bird.jpg',
+        year:'1941',
+        description:'Miro\' had settled with his family in the small town of Varengeville on the coast of Normandy in 1939, and he would remain there until the advance of the German army made him decide to return to Spain the following year. A series of twenty-three small works on paper, painted in 1940 and 1941 and known as the Constellations, captures both his desire to escape a hostile reality and his response to the landscape and light of Normandy, so different from his usual Mediterranean surroundings. The sky and stars are the leitmotifs of this series. A tangle of lines and small, colored ideograms suggesting birds, allegorical characters, stars, and animals enlivens a vivid, textured surface. This imagery of the heavens led the painter to expand his sense of pictorial space. Despite their small format, these works look ahead to the system of organization of the large canvases, and many of the smaller ones, after 1941.        In Women Encircled by the Flight of a Bird, the starts, each represented by two triangles placed tip to tip, and the successive positions of the bird surround the women and extend to the edges of the painting, weaving a fabric of lines and shapes that organizes the entire surface of the picture.',
         show:false
     },
     {
@@ -74,12 +74,13 @@ export const data=[
         description: 'Joan Miro experimented with the use of simple, exposed lines in his compositions. He held a particular reverence for the sun, moon, and stars, which determined the day and night, the light and absence of light, in our everyday lives. Though he was interested in the modernism of skyscrapers and man-made structures, he was fascinated by the drawings of cave men and human ancestors and their artistic responses to the power of the natural world.      In this painting Miro shows the world of his images in a very cheerful vein. Hovering in the top half of the picture, there are his usual escape ladders leading into heaven - symbols of the artist\'s relationship with the powers of creation. In the middle there is a large grey figure which that seems to be grasping at the ladders. Two enormous claws are bent upwards, and the animal-like face is turned towards the other figure on the left, whose head is balanced on a pointed pole. This nocturnal painting shows a cheerfully musical and easy-going playfulness.',
         show:false
     },
+   
     {
         id:'10',
-        title: 'Woman Encircled by the Flight of a Bird',
-        image:'https://www.joan-miro.net/images/paintings/woman-encircled-by-the-flight-of-a-bird.jpg',
-        year:'1941',
-        description:'Miro\' had settled with his family in the small town of Varengeville on the coast of Normandy in 1939, and he would remain there until the advance of the German army made him decide to return to Spain the following year. A series of twenty-three small works on paper, painted in 1940 and 1941 and known as the Constellations, captures both his desire to escape a hostile reality and his response to the landscape and light of Normandy, so different from his usual Mediterranean surroundings. The sky and stars are the leitmotifs of this series. A tangle of lines and small, colored ideograms suggesting birds, allegorical characters, stars, and animals enlivens a vivid, textured surface. This imagery of the heavens led the painter to expand his sense of pictorial space. Despite their small format, these works look ahead to the system of organization of the large canvases, and many of the smaller ones, after 1941.        In Women Encircled by the Flight of a Bird, the starts, each represented by two triangles placed tip to tip, and the successive positions of the bird surround the women and extend to the edges of the painting, weaving a fabric of lines and shapes that organizes the entire surface of the picture.',
+        title: 'The Farm',
+        image:'https://www.joan-miro.net/images/paintings/the-farm.jpg',
+        year:'1922',
+        description:'One of the threads running through Miro\'s work is his sense of something almost supernatural in the land, from which he felt he derived his vital energy in the same way that a tree does through its roots. Although he was born in Barcelona, from childhood he often visited Mallorca, his mother\'s home; Cornudella ( in the province of Tarragona), where his father was born; and later Montroig, where the family bought a farm. Miro\'s feelings toward these particular places are strongly present in a series of paintings done between 1918 and 1924. The paintings are often described as "detailist" because of the minute inventory of the rural world that the artist undertook in them. The diverse landscapes and objects always appear under intense, uniform light, as if illuminated by some mysterious energy of the earth. The Farm, painted on Miro\'s return from his first trip to Paris, culminated in this stage, which immediately preceded the decisive influence exerted on his work by Surrealism, beginning in 1924.',
         show:false
     },
     {
