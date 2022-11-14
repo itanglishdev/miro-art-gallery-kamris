@@ -47,6 +47,7 @@ html {
 .images-container {
   /* grid-template-columns: repeat(2,minmax(50px,1fr)); */
   /* width: 85%; */
+  cursor: pointer;
   display: flex; 
   flex-wrap: wrap; 
   gap: 8rem;
@@ -58,12 +59,24 @@ img {
   border-radius: 2px;
 }
 
+.image__details {
+  padding: auto;
+  display: none;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.image__details p:first-child {
+  font-weight: bold;
+}
+
 .single-image-container {
-  width: 250px;
+  height: 300px;
   position: relative;
 }
 
 .image__paintings {
+  padding: auto;
   width: 250px;
 }
 
@@ -77,12 +90,10 @@ span p {
   word-spacing: 5px;
 }
 
-/* .flex-image {
-  display: flex;
-} */
-
-/* span {
-} */
+.image__paintings:hover + .image__details {
+   display: contents;
+   width: 400px;
+}
 
 
 /*                      ABOUT SECTION */

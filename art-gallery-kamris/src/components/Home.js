@@ -23,10 +23,14 @@ function Home() {
              className='image__paintings'
              src={item.image}
              id={item.id}
+             
             //  onMouseOver={(e)=>onMouseHandler(e)}
             //  onMouseOut={offMouseHandler}
              alt=""
              />
+             <div className="image__details">
+               <p>{item.title}</p><p>{item.year}</p>
+             </div>
           </div>
       )})
 
