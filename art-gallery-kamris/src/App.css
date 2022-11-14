@@ -60,10 +60,11 @@ img {
 }
 
 .image__details {
-  padding: auto;
+  /* margin: 8px auto; */
   display: none;
   text-align: center;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
+  position: absolute;
 }
 
 .image__details p:first-child {
@@ -71,8 +72,11 @@ img {
 }
 
 .single-image-container {
-  height: 300px;
+  width: 300px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
 }
 
 .image__paintings {
@@ -92,7 +96,9 @@ span p {
 
 .image__paintings:hover + .image__details {
    display: contents;
-   width: 400px;
+   /* margin: auto; */
+  
+   height: 280px;
 }
 
 
