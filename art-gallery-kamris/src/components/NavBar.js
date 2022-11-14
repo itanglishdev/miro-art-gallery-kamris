@@ -9,7 +9,7 @@ function NavBar() {
                     <Link className="navbar__link" to='/'>home</Link>
                     <Link className="navbar__link" to='/about'>about</Link>
                     <Link className="navbar__link" to='/contact'>contact us</Link>
-                    <Link className="" to='/about/:id' />
+                    {/* <Link className="" to='/about/:id' /> */}
             </div>
             <Outlet/>
         </Fragment>

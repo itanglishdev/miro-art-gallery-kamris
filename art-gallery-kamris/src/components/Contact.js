@@ -26,6 +26,7 @@ function Contact() {
             email: emailRef.current.value,
             message: messageRef.current.value
         }
+        alert(`thank you ${data.name}, your message ${data.message} has been sent and we will reply asap at ${data.email}`)
         // add a prop to pass the value to the parents
         // useNavigate() should be used here to go back to main page after collecting the info and
         // sending the message with alert/feedback for sending
