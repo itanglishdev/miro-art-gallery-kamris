@@ -1,6 +1,5 @@
 import { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
-import {GiPaintedPottery} from 'react-icons/gi'
 
 function NavBar() {
     return ( 

@@ -1,4 +1,4 @@
-import '../App.css'
+// import '../App.css'
 
 function Card({id,image,title,year}) {
     return ( 

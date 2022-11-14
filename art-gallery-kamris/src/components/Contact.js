@@ -35,7 +35,7 @@ function Contact() {
 
     return ( 
         <div className='contact-container'>
-            <p>Fill up the form</p>
+            <p className='contact__p'>fill up the form</p>
             <form onSubmit={submithandler}>
                 <label htmlFor="name">
                     <input
